@@ -1,0 +1,51 @@
+<html>
+<head>
+	<style>
+		html {
+			background: #E6E6FA;
+			display: flex;
+			font-size: 12px;
+			font-family: Helvetica;
+		}
+
+		.label {
+			display: flex;
+			align-items: center;
+			font-size: 3rem;
+			border: 1px solid black;
+			padding: 2rem;
+			border-radius: 3rem;
+			background: #FFF000;
+			margin: 0 auto;
+		}
+
+		.loaded {
+			display: flex;
+			align-items: center;
+			font-size: 3rem;
+			border: 1px solid black;
+			padding: 2rem;
+			border-radius: 3rem;
+			background: #FFF000;
+			margin: 0 auto;
+		}
+		
+
+		.input {
+			font-size: 2rem;
+		}
+	</style>
+</head>
+	<title>Food API (test)</title>
+	<body>
+		<div class="label">Let's look at the weather today!
+		<div class="input">
+			<input type="text" name="City" class="input" id="city">City</input>
+			<input type="text" name="Country ISO Code" class="input" id="country">Country ISO Code</input>
+			<button onclick="addData()">get weather</button>
+		</div>
+		</div>
+		<script src="test-api.js"></script>
+	</body>
+
+</html>
